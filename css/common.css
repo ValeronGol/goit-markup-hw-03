@@ -1,0 +1,87 @@
+/* ОБЩИЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
+
+/* применяем основное семейство шрифтов и цвет для всего документа и ссылок */
+body,
+a,
+button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--title-text);
+}
+
+/* Контейнер для центрирования */
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* стили для header */
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text);
+}
+.logo {
+  color: var(--blue-text);
+}
+.current-link {
+  color: var(--blue-text);
+  font-weight: 500;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: var(--blue-text);
+}
+.link-mail {
+  color: var(--gray-text);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--blue-text);
+}
+/* стили для footer*/
+.footer {
+  background: var(--fon-color);
+  color: var(--text-white);
+}
+.adress {
+  font-weight: 400;
+}
+.footer-text {
+  color: var(--footer-text);
+  font-weight: 400;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-white);
+}

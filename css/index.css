@@ -1,0 +1,76 @@
+/* Стили для героя */
+.hero {
+  background-color: var(--fon-color);
+  color: var(--text-white);
+  text-align: center;
+}
+.hero-title {
+  width: 696px;
+  margin: 0px auto 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-link {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 136px;
+
+  background-color: var(--blue-text);
+  color: var(--text-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Стили для особенностей */
+.priority-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.priority-par {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
+}
+
+/* Стили для детельности */
+
+.deal-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* Стили для команды*/
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team-title-li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-par {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
+}
