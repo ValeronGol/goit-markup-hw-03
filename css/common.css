@@ -100,17 +100,24 @@ button {
 }
 /* стили для footer*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--fon-color);
   color: var(--text-white);
 }
 .adress {
   font-weight: 400;
 }
+.footer .item:not(:first-child) {
+  margin-top: 9px;
+}
 .footer-text {
   color: var(--footer-text);
   font-weight: 400;
 }
 .footer-logo {
+  display: block;
+  margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
