@@ -10,7 +10,7 @@ button {
 
 /* Контейнер для центрирования */
 .container {
-  width: 1200px;
+  width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -31,6 +31,8 @@ button {
 
 /* стили для header */
 .header-logo {
+  margin-right: 93px;
+  padding: 25px 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -38,6 +40,31 @@ button {
   letter-spacing: 0.03em;
   color: var(--logo-text);
 }
+.nav-list,
+.header-nav,
+.navcont,
+.contact-list {
+  display: flex;
+}
+.navcont {
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  align-items: center;
+}
+
+.nav-list :not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-list {
+  margin-left: auto;
+}
+.contact-list li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .logo {
   color: var(--blue-text);
 }
