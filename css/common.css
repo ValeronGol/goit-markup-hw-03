@@ -10,9 +10,11 @@ button {
 
 /* Контейнер для центрирования */
 .container {
-  width: 1230px;
-  margin: 0 auto;
-  padding: 0 15px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .visually-hidden {
@@ -30,9 +32,21 @@ button {
 }
 
 /* стили для header */
+
+.header {
+  border-bottom: 1px #ececec solid;
+}
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
-  margin-right: 93px;
-  padding: 25px 0;
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -40,35 +54,20 @@ button {
   letter-spacing: 0.03em;
   color: var(--logo-text);
 }
-.nav-list,
-.header-nav,
-.navcont,
-.contact-list {
-  display: flex;
-}
-.navcont {
-  align-items: center;
-  justify-content: space-between;
-}
-.header-nav {
-  align-items: center;
-}
-
-.nav-list :not(:last-child) {
-  margin-right: 50px;
-}
-
-.contact-list {
-  margin-left: auto;
-}
-.contact-list li:not(:last-child) {
-  margin-right: 50px;
-}
-
 .logo {
   color: var(--blue-text);
 }
-.current-link {
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+.nav-list .link,
+.contact-list {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.current {
   color: var(--blue-text);
   font-weight: 500;
 }
@@ -81,6 +80,13 @@ button {
 .link:hover,
 .link:focus {
   color: var(--blue-text);
+}
+.nav-list > .item:not(:first-child),
+.contact-list > .item:not(:first-child) {
+  margin-left: 50px;
+}
+.contact-list {
+  display: flex;
 }
 .link-mail {
   color: var(--gray-text);
