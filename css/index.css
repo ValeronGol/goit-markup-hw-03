@@ -1,11 +1,13 @@
 /* Стили для героя */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--fon-color);
   color: var(--text-white);
   text-align: center;
 }
 .hero-title {
-  width: 696px;
+  max-width: 696px;
   margin: 0px auto 30px;
 
   font-weight: 900;
@@ -18,7 +20,6 @@
   display: inline-block;
   padding: 10px 32px;
   border-radius: 4px;
-  min-width: 136px;
 
   background-color: var(--blue-text);
   color: var(--text-white);
