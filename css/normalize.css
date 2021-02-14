@@ -7,16 +7,19 @@
   margin: 0;
   padding: 0;
 }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 /* обнуляем дефолтные подчеркивания у всех ссылок */
 a {
   text-decoration: none;
@@ -27,6 +30,7 @@ kbd,
 samp,
 pre {
   font-family: 'Open Sans', sans-serif;
+
   /* font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; 1 */
   font-size: 1em; /* 2 */
 }

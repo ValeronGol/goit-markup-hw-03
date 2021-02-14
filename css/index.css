@@ -6,6 +6,7 @@
   color: var(--text-white);
   text-align: center;
 }
+
 .hero-title {
   max-width: 696px;
   margin: 0px auto 30px;
@@ -16,6 +17,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .hero-link {
   display: inline-block;
   padding: 10px 32px;
@@ -42,6 +44,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .priority-par {
   font-weight: 400;
   font-size: 14px;
@@ -49,6 +52,7 @@
   letter-spacing: 0.03em;
   color: var(--gray-text);
 }
+
 /* создание сетки для команды работ и особенностей */
 .priority-list,
 .deal-list,
@@ -58,12 +62,14 @@
   margin-top: calc(-1 * var(--size-div));
   margin-left: calc(-1 * var(--size-div));
 }
+
 .team-list > .item,
 .priority-list > .item {
   flex-basis: calc(100% / 4 - var(--size-div));
   background-color: var(--text-white);
   border-radius: 0px 0px 4px 4px;
 }
+
 .priority-list > .item,
 .deal-list > .item,
 .team-list > .item {
@@ -76,6 +82,7 @@
 .deal{
   padding: 94px 0;
 }
+
 .deal-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -91,6 +98,7 @@
   background-color: var(--btn-color);
   text-align: center;
 }
+
 .team-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -98,12 +106,14 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
 .team-title-li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .team-par {
   font-weight: 400;
   font-size: 16px;
