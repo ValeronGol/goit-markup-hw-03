@@ -12,7 +12,11 @@ ul {
   margin: 0;
   padding: 0;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* обнуляем дефолтные подчеркивания у всех ссылок */
 a {
   text-decoration: none;
@@ -41,7 +45,7 @@ Use a better box model (opinionated).
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 /**
