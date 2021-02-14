@@ -49,7 +49,7 @@ Use a better box model (opinionated).
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 /**
@@ -195,6 +195,9 @@ input,
 optgroup,
 select,
 textarea {
+  display: inline-block;
+  border: 0;
+  border-radius: 4px;
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -212,7 +215,6 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
