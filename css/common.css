@@ -116,14 +116,10 @@ button {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: var(--fon-color);
-  color: var(--text-white);
-}
-
-.adress {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  background: var(--fon-color);
   color: var(--text-white);
 }
 
@@ -132,9 +128,6 @@ button {
 }
 
 .footer-text {
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-text);
 }
 
@@ -145,6 +138,5 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--text-white);
 }
